@@ -2,10 +2,24 @@
   margin: 0;
   padding: 0;
 }
-.intro,
-.main,
-.sidebar {
+body {
+  background-image: url(DSC02354555.jpg);
+  background-color: aquamarine; /* Used if the image is unavailable */
+  height: 100vh; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.main {
   width: 100vw;
+  height: 100vh;
+}
+.intro {
+  width: 50vw;
+  height: 100vh;
+}
+.sidebar {
+  width: 50vw;
   height: 100vh;
 }
 .unicorn-wrapper {
@@ -15,6 +29,7 @@
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
 }
+/*
 .intro {
   background: cyan;
 }
@@ -24,6 +39,7 @@
 .sidebar {
   background: aqua;
 }
+*/
 .page-wrapper {
   width: 100vh;
   height: 100vw;
