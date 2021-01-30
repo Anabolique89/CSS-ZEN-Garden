@@ -181,8 +181,8 @@ header h2 {
   padding: 6px;
   width: 75vh;
   height: 15vw;
-  left: 85vh;
-  top: 360px;
+  left: 88vh;
+  top: 363px;
   background: #fff;
   opacity: 0.7;
   border-radius: 20px;
@@ -201,55 +201,57 @@ header h2 {
   padding: 6px;
   width: 170vh;
   height: 0vw;
-  left: 153vh;
+  left: 180vh;
   top: 0px;
 }
 .interlinked h3 {
   position: relative;
   margin: 0px;
   padding: 0px;
-  background: url(Interlinked.png) no-repeat center;
+  background: url(swim.png) no-repeat center;
   height: 25vw;
 }
 .participation {
   position: absolute;
-  left: 1059px;
+  left: 170vh;
   top: 10px;
   padding: 0px;
-  width: 300px;
-  height: 400px;
+  width: 55vh;
+  height: 41vw;
   background: #fff;
   opacity: 0.7;
+  border-radius: 20px;
 }
 
 .participation h3 {
   position: relative;
-  margin: 0px 0px 0px 0px;
+  margin: 15px 10px 5px 25px;
   padding: 0px;
-  background: transparent url(head_participation.gif) no-repeat bottom left;
-  width: 142px;
-  height: 25px;
+  background: transparent url(participation.png) no-repeat center;
+  width: 43vh;
+  height: 20px;
 }
 
 .benefits {
   position: absolute;
-  left: 1260px;
-  top: 470px;
+  left: 237vh;
+  top: 325px;
   padding: 0px;
   background: transparent;
-  width: 300px;
-  height: 170px;
+  width: 60vh;
+  height: 18vw;
   background: #fff;
   opacity: 0.7;
+  border-radius: 20px;
 }
 
 .benefits h3 {
   position: relative;
   margin: 0px;
   padding: 0px;
-  background: transparent url(head_benefits.gif) no-repeat top left;
-  width: 94px;
-  height: 25px;
+  background: transparent url(benefits.png) no-repeat top left;
+  width: 40vh;
+  height: 65px;
 }
 
 .requirements {
@@ -257,12 +259,13 @@ header h2 {
   margin: 0px;
   padding: 0px;
   background: transparent;
-  width: 300px;
-  height: 300px;
-  left: 1593px;
+  width: 110vh;
+  height: 42vw;
+  left: 310vh;
   top: 23px;
   background: #fff;
   opacity: 0.7;
+  border-radius: 20px;
 }
 
 .requirements h3 {
@@ -273,7 +276,21 @@ header h2 {
   width: 153px;
   height: 25px;
 }
-
+.dream {
+  position: absolute;
+  padding: 6px;
+  width: 170vh;
+  height: 0vw;
+  left: 360vh;
+  top: 10vw;
+}
+.dream h3 {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  background: url(fadeintoyouBlack.png) no-repeat center;
+  height: 36vw;
+}
 footer {
   position: absolute;
   margin: 0px;
@@ -326,11 +343,12 @@ footer {
   position: absolute;
   margin: 0px;
   padding: 0px;
-  width: 145px;
-  left: 360px;
-  top: 189px;
+  width: 29vh;
+  left: 56vh;
+  top: 190px;
   background: #fff;
   opacity: 0.7;
+  border-radius: 20px;
 }
 
 .design-selection h3 {
@@ -359,12 +377,12 @@ footer {
 .design-archives {
   position: absolute;
   margin: 0px;
-  padding: 0px;
+  padding: 5px;
   width: 270px;
   left: 30px;
-  top: 461px;
-  background: #fff;
-  opacity: 0.7;
+  top: 400px;
+  color: #fff;
+  border-radius: 20px;
 }
 
 .design-archives h3 {
@@ -379,11 +397,12 @@ footer {
 .zen-resources {
   position: absolute;
   left: 45px;
-  top: 535px;
+  top: 480px;
   padding: 0px;
-  width: 270px;
+  width: 40vh;
   background: #fff;
   opacity: 0.7;
+  border-radius: 20px;
 }
 
 .zen-resources h3 {
