@@ -68,9 +68,8 @@ a:active {
   margin-top: 20px;
   margin-left: 20px;
   background: url(koi.png) no-repeat top left;
-  background-color: rgba(240, 248, 255, 0.7);
-  width: 26vh;
-  height: 14vw;
+  width: 42vh;
+  height: 25vw;
   border-radius: 40px;
 }
 
@@ -86,11 +85,11 @@ header h1 {
   position: absolute;
   margin: 0px;
   padding: 0px;
-  background: transparent url(tit.gif) no-repeat top left;
-  width: 278px;
-  height: 186px;
-  left: 25px;
-  top: 165px;
+  background: transparent url(aquariumH1x.png) no-repeat top left;
+  width: 100vh;
+  height: 100vw;
+  left: -7vh;
+  top: 25vh;
   text-indent: -9999px;
   overflow: hidden;
 }
@@ -100,12 +99,11 @@ header h2 {
   position: absolute;
   margin: 0px;
   padding: 0px;
-  background: #fff url(cat.gif) no-repeat top left;
-  width: 193px;
-  height: 18px;
-  left: 225px;
-  top: 40px;
-  opacity: 0.7;
+  background: url(move3.png) no-repeat top left;
+  width: 100vh;
+  height: 15vw;
+  left: 25vh;
+  top: -38px;
 
   text-indent: -9999px;
   overflow: hidden;
@@ -114,12 +112,14 @@ header h2 {
 .summary {
   position: absolute;
   margin: 0px;
-  padding: 0px;
-  width: 300px;
-  left: 230px;
-  top: 50px;
+  padding: 10px;
+  width: 50vh;
+  height: 9vw;
+  left: 200px;
+  top: 35px;
   background: #fff;
   opacity: 0.7;
+  border-radius: 20px;
 }
 
 .summary p {
@@ -153,20 +153,19 @@ header h2 {
   margin: 0px;
   padding: 0px;
   background: #fff;
-  width: 260px;
-  height: 300px;
-  left: 560px;
-  top: 29px;
+  width: 75vh;
+  height: 24vw;
+  left: 85vh;
   opacity: 0.7;
+  border-radius: 20px;
 }
 
 .preamble h3 {
   position: relative;
   margin: 0px;
   padding: 0px;
-  background: transparent url(read.gif) no-repeat top left;
-  width: 298px;
-  height: 25px;
+  background: transparent url(enlighten.png) no-repeat center;
+  height: 5vw;
 }
 
 .supporting {
@@ -179,24 +178,39 @@ header h2 {
 .explanation {
   position: absolute;
   margin: 0px;
-  padding: 0px;
-  width: 300px;
-  height: 300px;
-  left: 773px;
+  padding: 6px;
+  width: 75vh;
+  height: 15vw;
+  left: 85vh;
   top: 360px;
   background: #fff;
   opacity: 0.7;
+  border-radius: 20px;
 }
 
 .explanation h3 {
   position: relative;
   margin: 0px;
   padding: 0px;
-  background: transparent url(head_explanation.gif) no-repeat top left;
-  width: 241px;
-  height: 25px;
+  background: transparent url(about.png) no-repeat center;
+  width: 60vh;
+  height: 2.8vw;
 }
-
+.interlinked {
+  position: absolute;
+  padding: 6px;
+  width: 170vh;
+  height: 0vw;
+  left: 153vh;
+  top: 0px;
+}
+.interlinked h3 {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  background: url(Interlinked.png) no-repeat center;
+  height: 25vw;
+}
 .participation {
   position: absolute;
   left: 1059px;
