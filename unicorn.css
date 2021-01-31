@@ -18,7 +18,7 @@ body {
 .unicorn-wrapper {
   display: flex;
   flex-direction: row;
-  width: 300vw;
+  width: 280vw;
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
 }
