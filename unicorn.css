@@ -154,7 +154,7 @@ header h2 {
   padding: 0px;
   background: #fff;
   width: 75vh;
-  height: 24vw;
+  height: 20vw;
   left: 85vh;
   opacity: 0.7;
   border-radius: 20px;
@@ -165,7 +165,7 @@ header h2 {
   margin: 0px;
   padding: 0px;
   background: transparent url(enlighten.png) no-repeat center;
-  height: 5vw;
+  height: 4vw;
 }
 
 .supporting {
@@ -180,9 +180,9 @@ header h2 {
   margin: 0px;
   padding: 6px;
   width: 75vh;
-  height: 15vw;
+  height: 22.5vw;
   left: 88vh;
-  top: 363px;
+  top: 305px;
   background: #fff;
   opacity: 0.7;
   border-radius: 20px;
@@ -193,8 +193,7 @@ header h2 {
   margin: 0px;
   padding: 0px;
   background: transparent url(about.png) no-repeat center;
-  width: 60vh;
-  height: 2.8vw;
+  height: 2.2vw;
 }
 .interlinked {
   position: absolute;
