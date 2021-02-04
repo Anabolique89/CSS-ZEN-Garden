@@ -43,6 +43,7 @@ a:link {
   font-weight: bold;
   color: #075e7b;
   text-decoration: none;
+  cursor: pointer;
 }
 
 a:visited {
@@ -55,7 +56,8 @@ a:hover,
 a:active {
   font-weight: bold;
   color: #737373;
-  text-decoration: underline;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .intro {
@@ -65,14 +67,15 @@ a:active {
   z-index: 1;
 }
 #zen-intro {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 20px;
   background: url(koi.png) no-repeat top left;
-  width: 42vh;
-  height: 25vw;
-  border-radius: 40px;
+  width: 41.5vh;
+  height: 23vw;
 }
-
+#zen-intro:hover {
+  background: url(KoiColorShadow.png) no-repeat top left;
+}
 header {
   position: relative;
   margin: 0px;
@@ -86,8 +89,8 @@ header h1 {
   margin: 0px;
   padding: 0px;
   background: transparent url(aquariumH1x.png) no-repeat top left;
-  width: 100vh;
-  height: 100vw;
+  width: 60vh;
+  height: 25vw;
   left: -7vh;
   top: 25vh;
   text-indent: -9999px;
@@ -100,7 +103,7 @@ header h2 {
   margin: 0px;
   padding: 0px;
   background: url(move3.png) no-repeat top left;
-  width: 100vh;
+  width: 54vh;
   height: 15vw;
   left: 25vh;
   top: -38px;
@@ -114,7 +117,6 @@ header h2 {
   margin: 0px;
   padding: 10px;
   width: 50vh;
-  height: 9vw;
   left: 200px;
   top: 35px;
   background: #fff;
@@ -154,7 +156,6 @@ header h2 {
   padding: 0px;
   background: #fff;
   width: 75vh;
-  height: 20vw;
   left: 85vh;
   opacity: 0.7;
   border-radius: 20px;
@@ -180,7 +181,6 @@ header h2 {
   margin: 0px;
   padding: 6px;
   width: 75vh;
-  height: 22.5vw;
   left: 88vh;
   top: 305px;
   background: #fff;
@@ -210,13 +210,21 @@ header h2 {
   background: url(swim.png) no-repeat center;
   height: 25vw;
 }
+
+.interlinked h3:hover {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  background: url(swimmColourShadow.png) no-repeat center;
+  height: 25vw;
+}
+
 .participation {
   position: absolute;
-  left: 170vh;
+  left: 171vh;
   top: 10px;
   padding: 0px;
   width: 55vh;
-  height: 41vw;
   background: #fff;
   opacity: 0.7;
   border-radius: 20px;
@@ -228,7 +236,7 @@ header h2 {
   padding: 0px;
   background: transparent url(participation.png) no-repeat center;
   width: 43vh;
-  height: 20px;
+  height: 25px;
 }
 
 .benefits {
@@ -238,7 +246,6 @@ header h2 {
   padding: 0px;
   background: transparent;
   width: 60vh;
-  height: 18vw;
   background: #fff;
   opacity: 0.7;
   border-radius: 20px;
@@ -259,7 +266,6 @@ header h2 {
   padding: 0px;
   background: transparent;
   width: 110vh;
-  height: 42vw;
   left: 310vh;
   top: 23px;
   background: #fff;
@@ -278,7 +284,7 @@ header h2 {
 .dream {
   position: absolute;
   padding: 6px;
-  width: 170vh;
+  width: 150vh;
   height: 0vw;
   left: 360vh;
   top: 10vw;
@@ -288,7 +294,10 @@ header h2 {
   margin: 0px;
   padding: 0px;
   background: url(fadeintoyouBlack.png) no-repeat center;
-  height: 36vw;
+  height: 42vw;
+}
+.dream h3:hover {
+  background: url(fadeintoyouColor.png) no-repeat center;
 }
 footer {
   position: absolute;
